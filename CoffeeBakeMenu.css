@@ -1,0 +1,83 @@
+h1, h2, p {
+        text-align: center;
+    }
+body {
+    background-image: url(https://media.istockphoto.com/id/1282670063/photo/delicious-freshly-baked-bread-assortment-on-dark-rustic-background.jpg?b=1&s=170667a&w=0&k=20&c=NZj2boN81ZaBeq8xO9509bs4K14-1_fyzAwD_3HJH4E=);
+    font-family:Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:italic;
+    text-decoration-line: underline;
+    margin-top: 20px;
+}
+h2 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+section {
+    padding: 30px;
+}
+hr {
+    height: 1px;
+    background-color: black;
+    border-color: transparent;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 120px;
+    max-height: 90px;
+}
+.est {
+    font-style: italic;
+    font-size: larger;
+}
+.menu {
+    width: 80%;
+    max-width: 600px;
+    background-color: cornsilk;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 30px;
+    padding-top: 20px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 20px;
+    opacity: 0.85;
+}
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    font-size: 18px
+}
+.flavor, .bakes, .cakes {
+ text-align: left;
+ width: 70%;
+}
+.price {
+    text-align: right;
+    width: 20%;
+}
+.bottom-line {
+    margin-top: 25px;
+  }
+
+/* Footer */
+footer {
+    font-size: 14px;
+    font-family:'Times New Roman', Times, serif;
+}
+a {
+    color: black;
+}
+a:hover {
+    color:rgb(19, 135, 75);
+}
+.foot {
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
